@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script></head>
+<body>
+    <ul>
+        <li id="first">텍스트 텍스트 텍스트 텍스트</li>
+        <li id="second">텍스트 텍스트 텍스트 텍스트</li>
+        <li id="third">텍스트 텍스트 텍스트 텍스트</li>
+        <li id="fourth">텍스트 텍스트 텍스트 텍스트</li>
+    </ul>
+
+    <script>
+        $(function(){
+            //$("li").css("color", "red");
+            //$("#first").css("color","red");
+            //$("li#first").css("color","red");
+            //$("#first, #third").css("color","red");
+            //$("li > strong").css("color","red");
+            //$("#second + li").css("color","red");
+            //$("li:first-child").css("color","red");
+            //$("li:not(:first-child)").css("color","red");
+            $("li:empty").css("color","red");
+            $("li:last-child").css("color","red");
+            $("li span:only-child").css("color","red");
+        });
+    </script>
+</body>
+</html>
