@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="check.html" method="POST">
+        <dl>
+            <dt>이름<em>(필수)</em></dt>
+            <dd><input type="text" name="name" value="" id=""></dd>
+            <dt>성별</dt>
+            <dd>
+                <input type="radio" name="gender" id="gender_man" value="남성">
+                <label for="gender_man">남성</label>
+                <input type="radio" name="gender" id="gender" value="여성">
+                <label for="gender">여성</label>
+            </dd>
+            <dt>연령</dt>
+            <dd>
+                <select name="age" id="">
+                    <option value="">선택해주세요</option>
+                    <option value="10대">10대</option>
+                    <option value="20대">20대</option>
+                    <option value="30대">30대</option>
+                    <option value="40대">40대</option>
+                </select>
+            </dd>
+            <dt>스킬</dt>
+            <dd>
+                <input type="checkbox" name="xhtml" value="XHTML" id="xhtml">
+                <label for="xhtml">XHTML</label>
+                <input type="checkbox" name="css" value="CSS" id="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="javascript" value="javaScript" id="javascript">
+                <label for="javascript">javaScript</label>
+                <input type="checkbox" name="php" value="PHP" id="php">
+                <label for="php">PHP</label>
+            </dd>
+            <dt>코멘트</dt>
+            <dd>
+                <textarea name="comment" id="" cols="30" rows="10">
+                </textarea>
+            </dd>
+            <input type="submit" value="전송">
+        </dl>
+    </form>
+
+    <script src="./jquery8.js"></script>
+</body>
+</html>
